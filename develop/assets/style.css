@@ -1,0 +1,47 @@
+/* * {
+    color: blueviolet;
+} */
+
+img {
+    max-width: 100px;
+    height: auto;
+    border: solid burlywood 5px;
+    border-radius: 50%;
+    margin-left: 80px;
+
+    /* make a circle on left */
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: right;
+    margin: 0 10px;
+    color: burlywood;
+}
+
+header {
+    color: #333;
+    background-color: #589dc9;
+}
+
+h1 {
+    margin: 30px;
+    margin-top: 30px
+}
+
+.header {}
+
+.mypic {}
+
+
+
+
+
+/* < !-- make media queries for iPad and Phone (and others?) --> */
