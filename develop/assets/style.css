@@ -1,9 +1,9 @@
-/* * {
-    color: blueviolet;
-} */
+* {
+    background-color: #589dc9;
+}
 
 img {
-    max-width: 100px;
+    max-width: 300px;
     height: auto;
     border: solid burlywood 5px;
     border-radius: 50%;
@@ -28,20 +28,35 @@ li {
 
 header {
     color: #333;
-    background-color: #589dc9;
+    ;
 }
 
 h1 {
-    margin: 30px;
-    margin-top: 30px
+    margin: 20px 90px;
 }
 
 .header {}
 
 .mypic {}
 
+section {
+    background-color: #FAF9F6
+}
 
+h2 {
+    background-color: #FAF9F6
+}
 
+.article {
+    background-color: #FAF9F6
+}
 
+article {
+    background-color: #FAF9F6
+}
+
+p {
+    background-color: #FAF9F6
+}
 
 /* < !-- make media queries for iPad and Phone (and others?) --> */
