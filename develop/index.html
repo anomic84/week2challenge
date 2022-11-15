@@ -2,17 +2,23 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/reset.css" />
     <link rel="stylesheet" href="./assets/style.css" />
     <title>Spencer Carlson's Portfolio</title>
+    <link rel="icon" type="image/png" sizes="180x180" href="https://i.imgur.com/dkkfzGT.png">
+
+
 </head>
 
 <body>
     <!-- add a Favicon -->
     <!-- Make a Header [x] -->
     <Header class="header">
+        <h4>Hi, my name is</h4>
         <h1>Spencer Carlson</h1>
         <!-- Put photo of me (circle) in left side of nav bar [x] -->
         <img src="https://i.imgur.com/3LNWXN5.jpg" class="mypic" alt="Spencer Carlson" />
@@ -37,9 +43,35 @@
             <p>My apps go here</p>
             <!-- My Work - Titled images, first work MUST be larger than others -->
         </article>
+        <!-- finish body element -->
+
+        <!-- its own section -->
         <article id="contact-me" class="article">
             <h2>Contact Me</h2>
-            <p>Create a contact form here</p>
+            <div class="container">
+                <form action="action_page.php">
+
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                        <option value="australia">Australia</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+                    </select>
+
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.."
+                        style="height:200px"></textarea>
+
+                    <input type="submit" value="Submit">
+
+                </form>
+            </div>
         </article>
     </section>
 

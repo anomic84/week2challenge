@@ -1,45 +1,108 @@
-* {
-    background-color: #589dc9;
-}
+* {}
+
 
 img {
     max-width: 300px;
     height: auto;
-    border: solid burlywood 5px;
+    border: solid #FA5 15px;
     border-radius: 50%;
-    margin-left: 80px;
+    margin: 80px 80px 80px 40%;
+    /* margin-left: 80px;
+    margin-bottom: 80px; */
+
 
     /* make a circle on left */
 }
 
 ul {
     list-style-type: none;
-    margin: 0;
+    height: 50px;
+    /* margin: 0; */
     padding: 0;
     overflow: hidden;
     background-color: #333;
+
 }
 
 li {
     float: right;
     margin: 0 10px;
-    color: burlywood;
+    color: #FA5;
+}
+
+.buttons {
+    font-family
 }
 
 header {
     color: #333;
+    background-color: #209CEE;
     ;
 }
 
 h1 {
-    margin: 20px 90px;
+    margin: 10px 240px;
+
+}
+
+h4 {
+    margin: 150px 0px 0px 240px;
+    padding-top: 150px
 }
 
 .header {}
 
 .mypic {}
 
-section {
+/* .container {
+    background-color: #555;
+} */
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    /* Full width */
+    padding: 12px;
+    /* Some padding */
+    border: 20px solid #f2f2f2;
+    /* Gray border */
+    border-radius: 4px;
+    /* Rounded borders */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+    resize: vertical
+        /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/* section {
     background-color: #FAF9F6
 }
 
@@ -57,6 +120,6 @@ article {
 
 p {
     background-color: #FAF9F6
-}
+} */
 
 /* < !-- make media queries for iPad and Phone (and others?) --> */
